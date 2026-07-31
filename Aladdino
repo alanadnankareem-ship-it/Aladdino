@@ -1,0 +1,99 @@
+Build a cross-platform mobile application (Android and iOS) with a web admin panel.
+
+Project Name:
+Global Shopping Iraq
+
+Purpose:
+Customers in Iraq submit product requests from international websites. The app does not sell products directly and does not display a product catalog.
+
+Workflow:
+1. Customer creates an account using phone number and OTP.
+2. Customer selects a country (USA, China, Turkey, UAE, UK, etc.).
+3. Customer selects the marketplace (Amazon, Alibaba, Trendyol, Noon, eBay, or Other).
+4. Customer pastes the product URL.
+5. Customer enters:
+   - Product name
+   - Size
+   - Color
+   - Quantity
+   - Notes
+   - Optional screenshot
+6. Order status becomes "Waiting for Quote".
+7. Admin reviews the request and enters:
+   - Product price
+   - Shipping
+   - Customs
+   - Service fee
+   - Total price
+   - Estimated delivery days
+8. Customer receives a notification and can Accept or Reject the quote.
+9. If accepted, payment is deducted from the customer's wallet.
+10. Admin updates order status until delivery.
+
+Customer Features:
+- Register/Login
+- Dashboard
+- New Order
+- My Quotes
+- My Orders
+- Wallet
+- Notifications
+- Support Chat
+- Profile
+- Saved Addresses
+
+Wallet:
+- Customer cannot add money directly.
+- Only admin can credit or debit wallet balances.
+- Wallet history shows deposits, deductions, and refunds.
+
+Order Status:
+Waiting for Quote
+Quote Ready
+Accepted
+Rejected
+Purchased
+At Warehouse
+Shipped
+Arrived in Iraq
+Out for Delivery
+Delivered
+Cancelled
+
+Admin Panel:
+- Dashboard
+- Customers
+- Orders
+- Quotes
+- Wallet Management
+- Notifications
+- Countries
+- Marketplaces
+- Delivery Tracking
+- Reports
+- Staff Management
+
+Database Tables:
+Users
+Wallets
+WalletTransactions
+Orders
+OrderItems
+Quotes
+Countries
+Stores
+Addresses
+Notifications
+Staff
+
+Technology:
+Flutter frontend
+Node.js (NestJS) backend
+PostgreSQL database
+Firebase Authentication (OTP)
+Firebase Cloud Messaging
+REST API
+JWT Authentication
+
+Theme:
+Modern, minimal, white and dark blue with green accents.
